@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1; /* prend tout l'espace entre navbar et footer */
+}
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 48px !important;
+    font-weight: bold !important;
+    color: black;
+    text-align: center;
+}
+h2 {
+    font-family: "Georgia", serif;
+    font-size: 28px;
+    font-weight: bold !important;
+}
+.card-title a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
